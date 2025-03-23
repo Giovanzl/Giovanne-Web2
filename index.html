@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Giovanne - Portfolio</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#Home" class="Logo">Giovanne</a>
+        <img src="images/gio.jpg" alt="">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Services">Services</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="Home" id="Home">
+        <div class="Home-img">
+            <img src="gio.jpg" alt="Profile Image">
+        </div>
+        <div class="Home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Giovanne</h1>
+            <h3>And I'm a <span class="multiple-text">Web Developer</span></h3>
+            <p>I'm a student pursuing my passion for web development. Building websites and learning new things, that's my jam!</p>
+        </div>
+        <div class="Social-Media">
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+    </section>
+
+    <!-- About Section Code -->
+<section class="About" id="About"
+>
+    <h2 class="heading">About <span>Me</span></h2
+>
+    <div class="About-container"
+>
+        <div class="About-img"
+>
+            <img src="gio (2).jpg" alt="About-image"
+>
+        </div
+>
+
+        <div class="About-Content"
+>
+            <h3>Hello! I'm <span>Giovanne</span></h3
+>
+            <p><strong>Full Name:</strong> Giovanne Navaro</p
+>
+            <p><strong>Address:</strong> Victoria, Tago  8300 Surigao Del Sur</p
+>
+            <p><strong>Born:</strong> October 7, 2007</p
+>
+            <p
+>
+                I am a passionate Front-End Web Developer who loves to build user-friendly and visually appealing websites. I specialize in HTML, CSS, and JavaScript and enjoy creating seamless user experiences. I am constantly learning new technologies and improving my skills.
+            </p
+>
+            <a href="#Contact" class="btn">Get in Touch</a
+>
+        </div
+>
+    </div
+>
+</section
+>
+
+    <!-- Skills Section -->
+    <section class="Skills" id="Skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="Skills-container">
+            <div class="Skills-box">
+                <h3>HTML</h3>
+                <div class="skill-bar"><div class="skill-level html"></div></div>
+            </div>
+            <div class="Skills-box">
+                <h3>CSS</h3>
+                <div class="skill-bar"><div class="skill-level css"></div></div>
+            </div>
+            <div class="Skills-box">
+                <h3>JavaScript</h3>
+                <div class="skill-bar"><div class="skill-level js"></div></div>
+            </div>
+            <div class="Skills-box">
+                <h3>React</h3>
+                <div class="skill-bar"><div class="skill-level react"></div></div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Experience Section Code -->
+<section class="Experience" id="Experience">
+    <h2 class="heading">My <span>Experience</span></h2>
+    <div class="Experience-container">
+        <div class="Experience-item">
+            <h3>Web Developer Intern</h3>
+            <p class="company">XYZ Company</p>
+            <ul>
+                <li>Developed and maintained company websites using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with the design team to create a user-friendly interface.</li>
+                <li>Optimized the performance of websites to improve load time by 30%.</li>
+            </ul>
+        </div>
+        <div class="Experience-item">
+            <h3>Frontend Developer</h3>
+            <p class="company">ABC Technologies</p>
+            <ul>
+                <li>Led the frontend development of a new project, resulting in a successful product launch.</li>
+                <li>Worked with React and Redux to manage state and optimize web applications.</li>
+                <li>Collaborated with a team to ensure code quality and adherence to best practices.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Services Section -->
+    <section class="Services" id="Services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="Services-container">
+            <div class="Services-box">
+                <i class="bx bx-code"></i>
+                <h3>Web Developer</h3>
+                <p>Let's collaborate to create the perfect online presence for your business.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="Services-box">
+                <i class="bx bx-palette"></i>
+                <h3>UI/UX Design</h3>
+                <p>Elevate your digital product with exceptional UI/UX design.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="Services-box">
+                <i class="bx bxl-android"></i>
+                <h3>App Developer</h3>
+                <p>I design and develop user-centered web applications that prioritize accessibility, usability, and performance.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="Contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" name="Email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="wow fadeIn" data-wow-delay="0.1s">
+        <div class="bg-secondary text-light text-center p-5">
+            
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-light px-3 border-end" href="#">Privacy</a>
+                <a class="text-light px-3 border-end" href="#">Terms</a>
+                <a class="text-light px-3 border-end" href="#">FAQs</a>
+                <a class="text-light px-3" href="#">Help</a>
+            </div>
+            
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            <p class="m-0">&copy; All Rights Reserved. Designed by <a href="https://www.facebook.com/Jovanksjks">Giovanne</a></p>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
